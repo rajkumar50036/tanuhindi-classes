@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Course Catalog | Tanushree Sharma Hindi Classes</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;family=Noto+Serif:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary": "#735c00",
+                    "on-secondary-fixed-variant": "#8f0f07",
+                    "on-error-container": "#93000a",
+                    "on-primary-fixed-variant": "#6d3a00",
+                    "secondary-container": "#fe624e",
+                    "tertiary-fixed": "#ffe088",
+                    "primary-fixed": "#ffdcc2",
+                    "surface": "#fefccf",
+                    "on-secondary-fixed": "#410000",
+                    "on-primary-fixed": "#2e1500",
+                    "inverse-surface": "#323214",
+                    "background": "#fefccf",
+                    "surface-container-lowest": "#ffffff",
+                    "tertiary-fixed-dim": "#e9c349",
+                    "surface-tint": "#8f4e00",
+                    "tertiary-container": "#d3ae36",
+                    "surface-container": "#f2f0c4",
+                    "on-error": "#ffffff",
+                    "on-tertiary-fixed": "#241a00",
+                    "on-surface": "#1d1d03",
+                    "surface-bright": "#fefccf",
+                    "error": "#ba1a1a",
+                    "primary-container": "#ff9933",
+                    "outline": "#887364",
+                    "on-secondary": "#ffffff",
+                    "on-tertiary": "#ffffff",
+                    "on-primary": "#ffffff",
+                    "surface-container-low": "#f8f6c9",
+                    "surface-dim": "#dedcb1",
+                    "primary-fixed-dim": "#ffb77a",
+                    "primary": "#8f4e00",
+                    "on-primary-container": "#693800",
+                    "outline-variant": "#dbc2b0",
+                    "surface-container-high": "#eceabe",
+                    "secondary-fixed-dim": "#ffb4a8",
+                    "surface-container-highest": "#e6e5b9",
+                    "secondary": "#b22b1d",
+                    "inverse-primary": "#ffb77a",
+                    "on-surface-variant": "#554336",
+                    "on-background": "#1d1d03",
+                    "inverse-on-surface": "#f5f3c7",
+                    "on-tertiary-container": "#544200",
+                    "error-container": "#ffdad6",
+                    "surface-variant": "#e6e5b9",
+                    "on-tertiary-fixed-variant": "#574500",
+                    "on-secondary-container": "#650000",
+                    "secondary-fixed": "#ffdad4"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "gutter": "24px",
+                    "container-max": "1280px",
+                    "base": "8px",
+                    "margin-tablet": "32px",
+                    "margin-mobile": "20px",
+                    "margin-desktop": "64px"
+            },
+            "fontFamily": {
+                    "hindi-display": ["Noto Serif"],
+                    "label-caps": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "title-md": ["Plus Jakarta Sans"],
+                    "headline-lg-mobile": ["Plus Jakarta Sans"],
+                    "display-lg": ["Plus Jakarta Sans"],
+                    "headline-lg": ["Plus Jakarta Sans"],
+                    "body-md": ["Inter"]
+            },
+            "fontSize": {
+                    "hindi-display": ["1.2em", {"lineHeight": "1.5", "fontWeight": "500"}],
+                    "label-caps": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "title-md": ["24px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                    "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "display-lg": ["56px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-lg": ["40px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 8px 32px 0 rgba(128, 0, 0, 0.08);
+        }
+        .pattern-overlay {
+            background-image: radial-gradient(#8f4e00 0.5px, transparent 0.5px);
+            background-size: 24px 24px;
+            opacity: 0.05;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-xl docked full-width top-0 sticky z-50 border-b border-white/40 dark:border-white/10 shadow-sm shadow-secondary/5 shadow-sm">
+<nav class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="font-headline-lg-mobile text-primary dark:text-primary-fixed-dim tracking-tight">
+                Tanushree Sharma Hindi Classes
+            </div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-body-md text-body-md" href="#">Courses</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200 font-body-md text-body-md" href="#">About</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200 font-body-md text-body-md" href="#">Testimonials</a>
+<a href="https://wa.me/918919163172?text=Hello,%20I'm%20interested%20in%20joining%20the%20Hindi%20classes." target="_blank" rel="noopener noreferrer" class="bg-primary-container text-on-primary-container px-6 py-2 rounded-lg font-bold hover:scale-105 transition-all active:scale-95 inline-block">
+                    Join Classes
+                </a>
+</div>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</nav>
+</header>
+<main class="relative min-h-screen">
+<!-- Background Pattern -->
+<div class="fixed inset-0 pattern-overlay pointer-events-none"></div>
+<!-- Hero Section -->
+<section class="relative pt-16 pb-12 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto text-center">
+<h1 class="font-display-lg text-display-lg text-primary mb-4">Master Hindi with Elegance</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-[720px] mx-auto">
+                Discover a curated collection of Hindi courses designed for every age and proficiency level. From academic support to professional fluency.
+            </p>
+</section>
+<!-- Filter Section -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mb-12">
+<div class="flex flex-wrap justify-center gap-4">
+<button class="bg-primary text-on-primary px-6 py-2 rounded-full font-label-caps text-label-caps shadow-lg hover:brightness-110 transition-all">All Courses</button>
+<button class="bg-surface-container-high text-on-surface-variant px-6 py-2 rounded-full font-label-caps text-label-caps hover:bg-primary-container hover:text-on-primary-container transition-all">Kids Hindi</button>
+<button class="bg-surface-container-high text-on-surface-variant px-6 py-2 rounded-full font-label-caps text-label-caps hover:bg-primary-container hover:text-on-primary-container transition-all">CBSE Support</button>
+<button class="bg-surface-container-high text-on-surface-variant px-6 py-2 rounded-full font-label-caps text-label-caps hover:bg-primary-container hover:text-on-primary-container transition-all">Spoken Hindi</button>
+<button class="bg-surface-container-high text-on-surface-variant px-6 py-2 rounded-full font-label-caps text-label-caps hover:bg-primary-container hover:text-on-primary-container transition-all">Hindi for Foreigners</button>
+</div>
+</section>
+<!-- Course Grid -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto pb-24">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Course Card 1 -->
+<div class="glass-card rounded-xl overflow-hidden flex flex-col h-full group">
+<div class="h-48 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A warm, scholarly atmosphere featuring a stack of vintage leather-bound Hindi books and a modern digital tablet on a light oak desk. The scene is bathed in golden afternoon sunlight creating a soft glow, emphasizing a modern gurukul aesthetic with premium ivory and saffron accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtT5YX4z-47eKSR68wJ0akvy5JU6SHlUr9nHWlv001q7GahYWyyh96SQfhh6FLV6MgtbroqiJvg67sHID-WXMMp__91mr-OTWIMc2ATMFfSapYeHYLU0x6tQUQfdHl2O_JUiHwSQ4SkPOCoH9iQp1BYFjFH_odSpmqEM-6sylDfiuLbKwcWbC4c9oz04zxRykgB-Rzrw334oyHfjrVFcUYqFB77dfGTBn98FRAseI5ullDXElcM5j2VTBoumQTztHUNw4tegDaVo8"/>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<div class="flex justify-between items-start mb-4">
+<span class="bg-secondary/10 text-secondary px-3 py-1 rounded text-label-caps font-label-caps">Kids Hindi</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Bala Bhasha: Hindi for Kids</h3>
+<p class="text-on-surface-variant font-body-md text-body-md mb-6 flex-grow">A playful introduction to Hindi through storytelling, rhymes, and interactive games for ages 5-10.</p>
+<div class="flex items-center gap-4 mb-6 text-on-surface-variant">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+<span class="text-label-caps font-label-caps">3 Months</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[20px]">groups</span>
+<span class="text-label-caps font-label-caps">Group Sessions</span>
+</div>
+</div>
+<a href="https://wa.me/918919163172?text=I'm%20interested%20in%20the%20Kids%20Hindi%20course" target="_blank" rel="noopener noreferrer" class="w-full border-2 border-secondary text-secondary py-3 rounded-lg font-bold hover:bg-secondary hover:text-on-secondary transition-all active:scale-95 text-center block">Contact on WhatsApp</a>
+</div>
+</div>
+<!-- Course Card 2 -->
+<div class="glass-card rounded-xl overflow-hidden flex flex-col h-full group">
+<div class="h-48 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up of a student's hand writing beautiful Hindi calligraphy characters with a traditional pen on high-quality ivory parchment. The lighting is soft and cinematic with a shallow depth of field, highlighting the saffron ink details and the elegant scholarly environment of a modern language studio." src="https://lh3.googleusercontent.com/aida-public/AB6AXuApMUSYBEPqkyfz3Uc9OUFitXmv-Uw82wFM9Day4Ifk8x79nn5ICjT3njq1z66sUJN8BUWd4AfvS9y56j0MtBp6BSNJVrfhsGm6l8lbxTsqjDqPms8gvAh43gYJyuCFsSetBiciqfitzxdefNw45YbcjCFaVkkZTbMxQcfAPwBaKoZ98jm0ZW4iqKIZ6xARpOZLDwgdEZjZHBbkaCmLdfavDKHxB6EL4EXfFoTI05Lm48gMunxpEt5ruzpTlVYFL72dTGoJ8N9MJ4s"/>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<div class="flex justify-between items-start mb-4">
+<span class="bg-secondary/10 text-secondary px-3 py-1 rounded text-label-caps font-label-caps">CBSE Support</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Academic Hindi Mastery</h3>
+<p class="text-on-surface-variant font-body-md text-body-md mb-6 flex-grow">Comprehensive curriculum support for Class 8-12 CBSE students focusing on literature and grammar.</p>
+<div class="flex items-center gap-4 mb-6 text-on-surface-variant">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+<span class="text-label-caps font-label-caps">6 Months</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[20px]">menu_book</span>
+<span class="text-label-caps font-label-caps">Study Material</span>
+</div>
+</div>
+<a href="https://wa.me/918919163172?text=I'm%20interested%20in%20the%20CBSE%20Support%20course" target="_blank" rel="noopener noreferrer" class="w-full border-2 border-secondary text-secondary py-3 rounded-lg font-bold hover:bg-secondary hover:text-on-secondary transition-all active:scale-95 text-center block">Contact on WhatsApp</a>
+</div>
+</div>
+<!-- Course Card 3 -->
+<div class="glass-card rounded-xl overflow-hidden flex flex-col h-full group">
+<div class="h-48 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A diverse group of international students engaged in a lively conversation in a modern, glass-walled classroom filled with light. The atmosphere is professional yet welcoming, with warm cream walls and subtle maroon accents. Soft cinematic lighting captures their expressive faces and gestures of communication." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPCmd2NBmO0OmakvQOzREb2BYZDr_vmiMKHru0-bZSCn5FziTB9Tg798o-dyOe3p-3p2Vm2cVhBV-vgivgQa-PHPV7K1W32ojY6LYsO5Ay-nFJ2l-_EUrqemUqZIa_S9nd-dGJliN_bTLIvZzQxirNmrFkz6TED7T2uUcGupHvMcoyW4Rf4Vy1LL8LZnDdFe7_pm6Dn4RWLIanqDoRdykyvkDGxfSdkixcFbk9JrilKk7OiATd2HBfkNXeovmDXPw1MxKG4lJPUJk"/>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<div class="flex justify-between items-start mb-4">
+<span class="bg-secondary/10 text-secondary px-3 py-1 rounded text-label-caps font-label-caps">Spoken Hindi</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Conversational Excellence</h3>
+<p class="text-on-surface-variant font-body-md text-body-md mb-6 flex-grow">Master the art of conversation for professional environments and social circles with native-like fluency.</p>
+<div class="flex items-center gap-4 mb-6 text-on-surface-variant">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+<span class="text-label-caps font-label-caps">4 Months</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[20px]">record_voice_over</span>
+<span class="text-label-caps font-label-caps">Live Practice</span>
+</div>
+</div>
+<a href="https://wa.me/918919163172?text=I'm%20interested%20in%20the%20Spoken%20Hindi%20course" target="_blank" rel="noopener noreferrer" class="w-full border-2 border-secondary text-secondary py-3 rounded-lg font-bold hover:bg-secondary hover:text-on-secondary transition-all active:scale-95 text-center block">Contact on WhatsApp</a>
+</div>
+</div>
+<!-- Course Card 4 -->
+<div class="glass-card rounded-xl overflow-hidden flex flex-col h-full group">
+<div class="h-48 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A serene outdoor study setting with a view of traditional Indian architecture in the background, softened by lens blur. On a small table, a laptop shows a video call with a friendly Hindi instructor. The aesthetic is clean and high-end, featuring a palette of ivory, cream, and rich maroon highlights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDotjkjsX17U9jU0yJW5EHStdWXTuParbc0ZTpuu4TXmFR1lx5Nom2Z8buuM50n8MbZ4faaHTiAbs53EEahhZ9e3W3fk_WmnjqO3q2uM_OOnulfTfgW6YhatW4-8gSnz-cPh3M0ygho_OvQz_20eSExufwoYNTcZ-d_1OcPKmupAIur-l4CsIv92mnzywv59RM7pafVybJUQjtUqRqMxtS58MAj0RNlCWxJTYtQi4hEr7_nAWynnudrO9hn15yn-5drR5Zji_9eUIU"/>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<div class="flex justify-between items-start mb-4">
+<span class="bg-secondary/10 text-secondary px-3 py-1 rounded text-label-caps font-label-caps">Foreigners</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Heritage Immersion</h3>
+<p class="text-on-surface-variant font-body-md text-body-md mb-6 flex-grow">Specially curated for expats and international learners. Cultural immersion through language.</p>
+<div class="flex items-center gap-4 mb-6 text-on-surface-variant">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+<span class="text-label-caps font-label-caps">5 Months</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[20px]">public</span>
+<span class="text-label-caps font-label-caps">Global Access</span>
+</div>
+</div>
+<a href="https://wa.me/918919163172?text=I'm%20interested%20in%20the%20Foreigners%20course" target="_blank" rel="noopener noreferrer" class="w-full border-2 border-secondary text-secondary py-3 rounded-lg font-bold hover:bg-secondary hover:text-on-secondary transition-all active:scale-95 text-center block">Contact on WhatsApp</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<div class="fixed bottom-0 left-0 w-full flex justify-center items-center docked full-width bottom-0 fixed z-50 md:hidden bg-primary dark:bg-primary-container shadow-[0_-4px_20px_rgba(128,0,0,0.1)]">
+<a class="flex items-center gap-2 justify-center py-4 w-full text-on-primary font-bold uppercase hover:bg-primary/90 transition-all active:scale-98" href="https://wa.me/918919163172?text=Hello,%20I'm%20interested%20in%20joining%20the%20Hindi%20classes." target="_blank" rel="noopener noreferrer">
+<span class="material-symbols-outlined" data-icon="chat">chat</span>
+<span class="font-label-caps text-label-caps">Contact on WhatsApp</span>
+</a>
+</div>
+<!-- Floating CTA (Web Only) -->
+<div class="hidden md:block fixed bottom-8 right-8 z-50">
+<a href="https://wa.me/918919163172?text=Hello,%20I'm%20interested%20in%20joining%20the%20Hindi%20classes." target="_blank" rel="noopener noreferrer" class="bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform active:scale-95 flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="chat">chat</span>
+<span class="font-label-caps text-label-caps">WhatsApp Support</span>
+</a>
+</div>
+<!-- Footer -->
+<footer class="w-full py-12 px-margin-mobile md:px-margin-desktop flex flex-col items-center gap-8 bg-surface-container-highest dark:bg-surface-container-lowest border-t border-outline-variant/30">
+<div class="max-w-container-max w-full grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-2">
+<div class="font-headline-lg text-primary dark:text-primary-fixed-dim mb-4">Tanushree Sharma Hindi Classes</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Preserving Heritage, Promoting Literacy. Join our community of over 5,000 students worldwide and master the beauty of Hindi.</p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-caps text-label-caps text-primary">Quick Links</h4>
+<a class="text-on-surface-variant font-body-md text-body-md hover:text-primary transition-colors" href="#">Courses</a>
+<a class="text-on-surface-variant font-body-md text-body-md hover:text-primary transition-colors" href="#">About Us</a>
+<a class="text-on-surface-variant font-body-md text-body-md hover:text-primary transition-colors" href="#">Student Success</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-caps text-label-caps text-primary">Support</h4>
+<a class="text-on-surface-variant font-body-md text-body-md hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant font-body-md text-body-md hover:text-primary transition-colors" href="#">Contact Support</a>
+</div>
+</div>
+<div class="w-full border-t border-outline-variant/30 pt-8 text-center font-body-md text-body-md text-on-surface-variant">
+            © 2024 Tanushree Sharma Hindi Classes. Preserving Heritage, Promoting Literacy.
+        </div>
+</footer>
+</body></html>
